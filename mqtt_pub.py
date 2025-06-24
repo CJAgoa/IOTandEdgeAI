@@ -17,7 +17,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.cleanup()
 
 client=mqtt.Client()
-client.connect(BROKER, PORT, 60)
+client.connect(???, ???, 60)
 client.on_connect=on_connect
 
 try:
